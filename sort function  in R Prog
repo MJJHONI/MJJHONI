@@ -1,0 +1,16 @@
+
+a <- readline(prompt = "If you want assenting order Press A or descending Order Press D ")
+
+c <- c(1,5,8,6,4,10,9)
+
+
+if ("A"==a){
+  
+  
+  print( sort(c))
+  
+}else
+{
+  print(sort(c,decreasing = TRUE))
+  
+}
